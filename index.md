@@ -4,7 +4,7 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/profile_foto_ak.jpg" alt="Photo" hspace="20" width="30%" align="right"/> I am graduate student currently enroled in the English Studies Master's programme at the University of Helsinki. I graduated with a BA in languages from the same university in the spring of 2024. The chief focus of my studies has been English and Finnish linguistics, as well as language technology and computer science. Prior to starting university in 2021, I was employed as a library assistant at Helsinki area public libraries (HELMET), as well as working as an assistant for the Finnish government at the ELY-Centre for Uusimaa.
+<img src="assets/images/profile_foto_ak.jpg" alt="Photo" hspace="20" width="30%" align="right"/> I am graduate student currently enroled in the English Studies Master's programme at the University of Helsinki. I graduated with a BA in languages from the same university in the spring of 2024. The chief focus of my studies has been English and Finnish linguistics, as well as language technology and computer science. Prior to starting university in 2021, I was employed as a library assistant at Helsinki area public libraries (HELMET), as well as working as an office assistant for the Finnish government at the ELY-Centre for Uusimaa.
 
 ## Find me on
 
@@ -28,6 +28,9 @@ My email address is of the form first_name.last_name@helsinki.fi.
 
 ## Projects
 
+[cmdline-course](https://github.com/akskettu-hub/cmdline-course) A simple practice project for processing text files using bash commands and a Python script. For example, generating a word frequency list from a text file, or, parsing a text file for syntax.
+
 ## Misc. 
 
+Might add something here!!!
 [Gotta Love Cheese](https://en.wikipedia.org/wiki/Cheese) 
