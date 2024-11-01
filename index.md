@@ -6,6 +6,10 @@ layout: default
 
 <img src="assets/images/profile_foto_ak.jpg" alt="Photo" hspace="20" width="30%" align="right"/> I am graduate student currently enroled in the English Studies Master's programme at the University of Helsinki. I graduated with a BA in languages from the same university in the spring of 2024. The chief focus of my studies has been English and Finnish linguistics, as well as language technology and computer science. Prior to starting university in 2021, I was employed as a library assistant at Helsinki area public libraries (HELMET), as well as working as an office assistant for the Finnish government at the ELY-Centre for Uusimaa.
 
+## CV
+
+[CV](https://www.overleaf.com/read/fxzkzygrqwfc#9584f4)
+
 ## Find me on
 
 [GitHub](https://github.com/akskettu-hub)
@@ -32,5 +36,7 @@ My email address is of the form first_name.last_name@helsinki.fi.
 
 ## Misc. 
 
-Might add something here!!!
-[Gotta Love Cheese](https://en.wikipedia.org/wiki/Cheese) 
+
+[ELY-Centre](https://en.wikipedia.org/wiki/Centre_for_Economic_Development,_Transport_and_the_Environment) 
+
+[HELMET](https://en.wikipedia.org/wiki/Helsinki_Metropolitan_Area_Libraries)
