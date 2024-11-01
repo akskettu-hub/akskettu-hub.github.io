@@ -61,8 +61,36 @@ The material for this week was a good introduction to fundamental aspects of wor
 
 ## Week 3: Basic Corpus Processing
 
+Week 3 dealt with text processing tools. We learned about different character encodings, such as ASCII and utf-8. We used the command `file` to identify the encoding used in a text file, and how to convert the encoding of a text file using the command `iconv`. We also learned that Windows handles text files slightly differently from UNIX systems in that the new line symbol `\n` is accompanied by a carriage return symbol. Windows style text files can be converted to UNIX style files using the command `dos2unix`.
+
+We then learned to modify and process files in various ways:
+
+- The command `tr` can be used to transform characters to other characters
+	- For example `tr 'A' 'a'` would transform all capital a's to lowercase
+	- This command can also be used with POSIX character classes
+- We learned to redirect the output of a command using the `>` symbol.
+- The command `sort` command will sort the file given as an argument
+	- `-f` can be added to ignore case
+- The command `uniq` can be used to include only unique items in a file. Adding the option `-i` makes the command ignores case.
+
+We then went over the basics of regular expressions (regex), which can be used to define a pattern of text. These patterns can then be used to match strings in a text. Regex is very powerful but can also be quite tricky to use.
+
+Next we learned to use the command `egrep` which scans a file and returns each line that matches the pattern given as an argument. 
+
+The tools thought this week have proven to be very useful for dealing with text files both during this course and outside of it. As I am currently taking courses in corpus linguistics in the English studies programme, knowing how to navigate different file types and processing text has proven a valuable skill. 
+
 
 ## Week 4: Advanced Corpus Processing
+
+Continuing for last week, the materials for week 4 entailed further text processing. This included the command `sed`, which is used for various text processing and manipulation purposes. `sed` can be used with regular expressions and its uses are plentiful and powerful.
+
+We also learned about text processing pipelines: stringing together commands using `|` between commands into a long series of commands which perform some complicated function. For examle:
+
+<img src="assets/images/pipeline.jpg" alt="Photo" hspace="20" width="100%" align="center"/>
+
+In the above image, the pipeline takes a text file, converts it to UNIX format, replaces spaces with a new line, removes punctuation, sorts the list, keeps only unique items and prefixes them with a count number, sorts the list numerically in reverse order, and finally prints the first 10 lines. These kinds of pipelines can be customised and used to process large quantities of files.
+
+As stated in preveious weeks entry these kinds of text processing methods have proven very useful in corpus linguistics projects and I have been using the regularly outside of this course.  
 
 
 ## Week 5: Scripting and Configuration Files
