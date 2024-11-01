@@ -8,8 +8,9 @@ layout: default
 
 ## CV
 
-[CV](https://www.overleaf.com/read/fxzkzygrqwfc#9584f4)
+[CV on Overleaf](https://www.overleaf.com/read/fxzkzygrqwfc#9584f4)
 
+[CV as pdf]({{ site.url }}/assets/documents/CV_AkseliKettunen_Nov2024.pdf)
 ## Find me on
 
 [GitHub](https://github.com/akskettu-hub)

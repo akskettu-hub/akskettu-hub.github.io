@@ -4,11 +4,10 @@ layout: default
 
 ## Introduction
 
+This page is a summary of the contents of the course *Command Line Tools for Linguists* offered at the University of Helsinki. The contents of the course included an intoroduction to the UNIX command line enviroment and the use of command line tools likely to be useful for linguists. The course was aimed at novices in using the command line environment. After an introducton to the basics of using a UNIX system, the course introduces various tools for managing, processing, and manipulating text files. These tools are then used to create pipelines for text file processing, which in turn are used in scipts made to automate their execution. The course then introduces project building tools like `make` and project and version management tools like Git. Finally all the skills learned in this course are use to create this very GitHub hosted website.
 
-## Week 1: Introduction to Command Line Enviroments
-The first week began by installing a command-line enviroment. In my case I used Ubuntu through WLS2, as I am a windows user. We then proceeded to familiarise ourselves with the basics of interacting with the command line. This included basic commands, such as:
-
-
+## Week 1: Introduction to Command Line Environments
+The first week began by installing a command-line environment. In my case I used Ubuntu through WLS2, as I am a windows user. We then proceeded to familiarise ourselves with the basics of interacting with the command line. This included basic commands, such as:
 
 
 | Command       | Description                        |
@@ -30,7 +29,6 @@ We then learned about quitting applications, which, deppending on the context, c
 We then learned about text editors, like nano, and learned about the difference between text files and binary files. 
 
 Beign a basic introcution to the command line, all of this week's information was useful to me in completing this course. By far the most useful part was discovering that I can use Linux on my Windows computer. I had previously tried to use PowerShell for some things, but that had proven somewhat too clunky to use regularly. Having WSL on my computer will, and indeed has, proven to be extremely useful. 
-
 
 
 ## Week 2: Navigating a UNIX system
@@ -123,3 +121,19 @@ In the above image a number of targets for creating various processed text files
 For this weeks contents I found the installing part to be quite straight forward. I had already used `pip` to install libraries in Python, but using virtual environments was new to me, and I can definitely see that being useful in the future. I found Makefiles to be by far the most challenging part of this course, as the syntax was rather difficult to deal with. Still, I definitely think getting an introduction to it to be beneficial in the future, as I see its utility. 
 
 ## Week 7: Version Control
+
+For week 7 we about version controll using Git and GitHub. Git enables one edit mostly text-based projects with out fear of ruining previous work. Git can be used to restore previous versions of a project and to create *branches* so that experimental approaches can be tried out without interfearing with a stable version of project. GitHub is a platform for sharing git repositories to enable multiple people to work on a single project, as well as creating *forks* of projects which may head in an entirely different direction form the original. 
+
+We began by installing Git and configuring, and learning the basic workflow for using Git, as follows:
+
+1. We can initialise a Git repository using the command `git init` or by cloning a repository from GitHub using the command `git clone <git_repo_URL>`.
+2. We stage updates to the repository with the command `git add .`, which stages all changes from the the previously commited version to be commited.
+	- We can also stage specific files to be staged with `git add <path>`
+3. We commit updates using `git commit -m "Update message"`, which commits all staged changes to the repository
+	- It is important to be as specific as possible in the update message as to what changes have been made, to make it easier to return to a previous version of the project.
+4. We push these updates to the remote repository using `git push origin <branch to be updated>` 
+	- If you are working with other people, it is important to pull updates made to the remote repository using `git pull origin <brach to be pulled>`
+
+For the most part, the four above steps are the basic workflow for working with Git. Other useful commands include `git log` which prints a log of previous changes, and `git status`, which gives information about which chages are untracked, how many commits the local file repository is ahead of the remote repository, etc.
+
+From this week's materials, I learned the basics of using Git, which I found to be very useful, especially for larger coding projects. I have indeed started using Git in my own projects, albeit locally, as I am not interested in sharing them at this stage.
